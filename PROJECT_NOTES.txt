@@ -1,0 +1,35 @@
+STUDENT RECORD MANAGEMENT SYSTEM
+
+WHAT IT DOES:
+- Adds students to a list
+- Searches for students by ID
+- Updates student GPA
+- Deletes students
+- Displays all students
+- Saves data to 3 different file types (text, binary, serialized)
+- Creates backup of data
+- Shows file properties
+- Generates reports (total students, highest GPA, lowest GPA, average GPA)
+
+HOW TO RUN:
+javac Student.java StudentRecordSystem.java Main.java
+java Main
+
+FILES:
+- Student.java: Contains student information
+- StudentRecordSystem.java: Main system that manages students
+- Main.java: Demo program that tests everything
+
+OUTPUT FILES CREATED:
+- students.txt (text format)
+- students.dat (binary format)
+- students.ser (serialized format)
+- students_backup.txt (backup)
+
+FEATURES IMPLEMENTED:
+✓ CRUD Operations (Create, Read, Update, Delete)
+✓ File I/O (Text, Binary, Serialization)
+✓ Exception Handling
+✓ Backup System
+✓ Report Generation with Statistics
+✓ File Properties Display
